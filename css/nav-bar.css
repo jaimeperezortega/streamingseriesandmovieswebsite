@@ -1,0 +1,183 @@
+@import url(./styles.css);
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: var(--navbar-height);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E161F;
+    z-index: 1;
+    
+
+}
+
+  .navbar-item a {
+    /* display: flex;
+    justify-content: center; */
+    color: azure;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+
+
+.login{
+    
+    margin-left: 0.8rem;
+    padding:0.3rem;
+    border: solid 1px white;
+    border-radius:  20px;
+   
+       
+}
+
+.login > a{
+    
+    font-size: 0.6rem;
+    font-weight: 700;
+    
+}
+
+.logo{
+    
+/* margin-top: 1rem; */
+   
+}
+
+.logo-font{
+   padding-bottom:2rem;
+   font-size: 2rem;
+   font-family: 'Nerko One', cursive;
+}
+
+
+.buscador{
+    margin-right: 0.8rem;
+   
+}
+
+input[type=search] {
+    border-radius:10px;
+    max-width: 4rem;
+}
+
+.search-button{
+    color:black;
+    border-radius: 15px;
+    font-size: 0.6rem;
+}
+
+
+.search {
+    background-color: white;
+    max-height: 1.5rem;;
+    max-width: 6rem;
+}
+
+.submenu{
+    z-index: 1;
+    position:fixed;
+    top: var(--navbar-height);
+    left: 0;
+    /* background-color: #157DA7  */
+    /* background-image: linear-gradient(#0E161F, red); */
+
+}
+
+.submenu-list{
+    
+    width: 100%;
+    padding:1rem;
+    top: var(--navbar-height);
+    position:fixed;
+    /* background-color: #157DA7 ; */
+    background-image: linear-gradient(to top right, #157DA7 , #0E161F);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding-bottom: 0.7rem;
+    margin-top:0;
+    
+    border: #2e3847 0.1rem;
+
+}
+
+.submenu-list>li{
+  padding-right: 1.2rem;
+  font-size: 0.7rem;;
+  
+}
+
+
+
+
+
+
+
+@media (min-width: 760px)  {
+    
+
+    .login{
+        margin-left:5rem;
+        padding: 0.7rem;
+    }
+
+    .login > a{
+    
+        font-size: 0.9rem;
+        font-weight: 700;
+        
+    }
+
+    .buscador{
+        margin-right:5rem;
+    }
+
+    .submenu-list{
+        justify-content: space-evenly;
+    }
+
+    .logo-font{
+        
+        font-size: 4rem;
+     }
+
+
+
+  }
+
+  @media (min-width: 1200px)  {
+    
+
+    .login{
+        margin-left:8rem;
+        padding: 0.8rem;
+    }
+
+  
+
+    .buscador{
+        margin-right:8rem;
+    }
+
+    input[type=search] {
+        
+        max-width: 9rem;
+    }
+    
+    .search-button{
+        color:black;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    }
+
+    
+
+
+  }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/nav-bar.css">
     <link rel="stylesheet" href="./css/parrilla.css">
+    <link rel="stylesheet" href="./css/ficha.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>Wombat TV</title>
 </head>
@@ -20,17 +21,16 @@
      </div>
      
       
-      <div class="logo" >
-       <!-- <img src="./sources/logo-wombat-tv.png" alt=""> -->
-       <a href="./index.html">
-        <h1 class="logo-font">WOMBAT TV</h1>
-       </a> 
-
-      </div>
+     <div class="logo" >
+        <a href="./index.html">
+            <h1 class="logo-font">WOMBAT TV</h1>
+           </a> 
+ 
+       </div>
         
      
         <div class="buscador">
-          <input class="search-area" type="search" placeholder="Buscar" id="search">
+          <input class="search" type="search" placeholder="Buscar" id="search"> 
           <input class=" search-button" type="submit" value="OK"> 
         </div>
          
@@ -47,11 +47,147 @@
 
     </nav>
 
+    <header>
 
-<main class="main">
+        <h1 class="titulo-pelicula">Juego de Canguros</h1>
+    </header>
+    <main class="ficha-completa-container">
+    <section class="ficha-texto">
+        <ul class="data-ficha">
+        <li class="data-element">IMDb 7.2</li>
+        <li class="data-element">1h 34 min</li>
+        <li class="data-element">2015</li>
+        <li class="data-element">Marsupiales</li>
+        </ul>
+    <p class="sinopsis">
+       Los siete reinos de los canguros entran en una pugna por la sucesión al trono de heno. Para conseguirlo, tendrán que conseguir el anillo de poder para dominarlos a todos.
+    </p>
+
+   <div class="reparto">
+
+    <table >
+
+        <tr>
+            <td  class="titulo-reparto">Dirección:</td>
+            <td class="contenido-repato">Joe Wombat</td>
+        </tr>
+        <tr>
+            <td class="titulo-reparto">Reparto:</td>
+            <td class="contenido-repato">Sophia Koala, Max Possum, Frank Platypus</td>
+        </tr>
+        <tr>
+            <td class="titulo-reparto">Género:</td>
+            <td class="contenido-repato">Comedia</td>
+        </tr>
+
+    </table>
+
+   </div>
+</section>
+<section class="ficha-video">
+    <div class="video-container">
+        <video class="trailer"  src="./sources/kangaroo-express-trailer.mp4" controls></video>
+
+    </div>
+</section>
+</main>
+
+<h1 id="similares">TÍTULOS SIMILARES</h1>
+<section class="genero novedades">
+  <div>
+<div id="titulo1"class="banner1">
+  <a href="./ficha.html">
+    <div class="overlay" >
+  <div class="info">
+      <div class="content">
+        <ul>
+        <li>IMDd: 7.8</li>
+        <li>2015</li>
+
+      </ul>
+      <p >Un canguro se va de marcha con sus amigos canguros y acaban en otro continente
+      </p>
+    </div>
+  </div>
+
+ </div></a>
+
+</div>
+<h2 class="banner-title">Juego de canguros</h2>
+</div>
+
+
+
+<div>
+<div class="banner2">
+  <a href="./ficha.html">
+  <div class="overlay">
+    <div class="info">
+      
+      <div class="content">
+      <ul >
+        <li>IMDb: 6.5</li>
+        <li>2019</li>
+
+      </ul>
+      <p >Un wombat decide unirse a un grupo de mafiosos ingleses y pasa lo que pasa.
+      </p>
+    </div>
+    </div>
+   
+  </div></a>
   
-  <h1 id="novedades">NOVEDADES</h1>
- 
+</div>
+<h2 class="banner-title" >Wombat Blinders</h2>
+</div>
+
+<div>
+<div class="banner3">
+  <a href="./ficha.html">
+  <div class="overlay">
+    <div class="info">
+     
+      <div class="content">
+      <ul>
+        <li>Imdb: 8.2</li>
+        <li>2020</li>
+
+      </ul>
+      <p >Las bandas de koalas moteros de Melbourne entran en disputa con sus bandas rivales de Sidney.
+      </p>
+    </div>
+    </div>
+  </div>
+</a>
+</div>
+<h2 class="banner-title" >Sons of Koalarchy</h2>
+</div>
+
+
+<div>
+<div class="banner4">
+  <a href="./ficha.html">
+  <div class="overlay">
+    <div class="info">
+      <div class="content">
+      <ul>
+        <li>IMDb: 7.8</li>
+        <li>2016</li>
+
+      </ul>
+      <p>Unos cocodrilos alumnos de un High School astraliano empiezan a sufrir una serie de sucesos paranormales.
+      </p>
+    </div>
+    </div>
+   
+  </div>
+ </a>
+</div>
+<h2 class="banner-title">Stranger Crocodiles</h2>
+</div>
+</section>
+
+<h1 id="novedades">NOVEDADES</h1>
 <section class="genero novedades">
   <div>
 <div id="titulo1"class="banner1">
@@ -433,8 +569,8 @@
     <h2 class="banner-title">Stranger Crocodiles</h2>
     </div>
     </section>
-      </main>
-      <footer>
+   
+    <footer>
         <div class="logo-font logo-footer">
           WOMBAT TV
         </div>
@@ -447,11 +583,11 @@
           <li class="li-footer" ><a class="link-footer" href="#">SOBRE NOSOTROS</a></li>
           <li class="li-footer" ><a class="link-footer" href="#">FAQS</a></li>
           <li class="li-footer" ><a class="link-footer"  href="#">POLÍTICA DE PRIVACIDAD</a></li>
-      
          
          
         </ul>
 
 
       </footer>
-      </body>
+
+</body>

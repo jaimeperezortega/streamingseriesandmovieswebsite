@@ -1,34 +1,42 @@
-<!-- Al llegar a la plataforma se debe mostrar un formulario de login para acceder al contenido. En ese formulario se debe implementar:
 
-!1. Un campo para el email que servirá como no,bre de usuario
-!2. Un campo para la contraseña
-!3. Un botón para realizar el login y acceder al contenido
-!4. Un enlace para iniciar el proceso de recordar contraseña olvidada-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login-styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/login-styles.css">
     <title>Wombat TV - Login</title>
 </head>
 <body>
     <header>
-        <img src="./sources/logo-wombat-tv.png" alt="Logo Wombat TV">
-        <h1>Iniciar Sesión - Wombat TV</h1>
+       
+            <!-- <img class="img-logo" src="./sources/logo-wombat-tv.png" alt="Logo Wombat TV"> -->
+
+            <h1 class="logo-font">WOMBAT TV</h1>
+       
+       
     </header>
     <body>
+        <h1>Iniciar Sesión</h1>
         <div class="form">
         <form class="form" action="./index.html" method="GET">
         
-            <label class="label" for="email">Introduce to email </label><br>
-            <input class="input" type="email" id="email"/><br><br>
-            <label class="label" for="password">Introduce tu contraseña</label><br>
-            <input class="input" type="password" id="password"/><br>
+            <div class="input-email">
+                <label class="label" for="email">Introduce to email </label>
+                <input class="input" type="email" id="email"/>
+            </div>
+            
+            <div class="input-password">
+            <label class="label" for="password">Introduce tu contraseña</label>
+            <input class="input" type="password" id="password"/>
+            </div>
+            
             
           
-        <button class="button" type="submit" value="Enviar">INICIAR SESIÓN</button> </form><br>
+        <button class="button" type="submit" value="Enviar">INICIAR SESIÓN</button> </form>
         <a class="forgotpassword" href="./index.html">Olvidé mi contraseña</a>
 
         </form>

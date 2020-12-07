@@ -1,0 +1,118 @@
+
+
+body{
+    left:0rem
+}
+
+
+.titulo-pelicula {
+
+    padding:1.2rem;
+    text-align: left;
+    padding-left:20px;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+}
+
+.data-ficha{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    padding-left:20px;
+
+}
+
+.data-element{
+    padding-right: 1rem;
+    font-size: 0.8rem;
+    color: silver;
+}
+
+.sinopsis{
+    padding-left:20px;
+    padding-top: 10px;
+    font-size: 0.9rem;
+    max-width: 40rem;
+}
+
+.reparto{
+    padding-left:20px;
+    padding-top: 1rem;
+    /* background-color:#0E161F;
+    background-color:  #262626;; */
+}
+
+.titulo-reparto{
+    font-size: 0.rem;;
+    color:silver;
+    font-weight: 900;
+    padding-right: 1rem;
+}
+
+.contenido-reparto{
+
+    font-size: 0.rem;;
+    color:silver;
+    max-width: 40rem;;
+    
+}
+
+.video-container{
+    text-align: center;
+}
+
+.trailer{
+   padding-left:1.8rem;
+   padding-right:1.8rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   max-width: 100%;
+}
+
+
+
+@media (min-width: 700px) {
+    .titulo-pelicula{
+        padding-left: 4rem;
+        font-size: 2rem;
+    }
+
+    .data-ficha{
+        padding-left: 4rem;
+    }
+   
+.sinopsis{
+    padding-left:4rem;
+}
+
+.reparto{
+    padding-left:4rem;
+    
+}
+
+.trailer{
+    max-width: 500px;
+}
+
+
+  }
+
+  @media (min-width: 1200px) {
+
+    .titulo-pelicula{
+        padding-left: calc(100vw/5);
+        font-size: 2rem;
+        
+    }
+  
+.ficha-completa-container{
+    display:flex;
+    justify-content: center;
+}
+
+.ficha-texto{
+    padding-top: 3rem;
+    padding-right:5rem;
+}
+
+  }

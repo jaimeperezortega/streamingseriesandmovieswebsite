@@ -1,0 +1,218 @@
+
+h1{
+  text-align: center;
+  padding-top: 2rem;
+  margin:0;
+  /* border-bottom: cornflowerblue 0.2rem solid; */
+}
+
+h1:target{
+  padding-top: 8rem;
+}
+
+
+
+.genero{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2.5rem 2rem;
+   
+
+}
+
+.genero:nth-of-type(even){
+  background-color: #262626;
+}
+
+.genero:nth-of-type(odd){
+  background-color:#0E161F;
+}
+h1:nth-of-type(even){
+  background-color:  #262626;;
+}
+h1:nth-of-type(odd){
+  background-color:#0E161F;
+}
+
+  .banner1 {
+    background-size:100% 100%;
+    max-width: 23rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background: url(../sources/banner-1-kangaroo.jpg);
+    background-size: cover;
+    
+    
+  }
+
+  .banner2 {
+    background-size:100% 100%;
+    max-width: 23rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background-image: url(../sources/banner-2-wombat.jpg);
+    background-size: cover;
+  }
+
+  .banner3 {
+    background-size:100% 100%;
+    max-width: 23rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background-image: url(../sources/banner-3-koala.jpg);
+    background-size: cover;
+  }
+
+  .banner4 {
+    background-size:100% 100%;
+    max-width: 23rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background-image: url(../sources/banner-4-crocodile.jpg);
+    background-size: cover;
+  }
+
+
+  .overlay{
+    position: absolute;
+    top: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .banner1:hover .overlay {
+    opacity: 0.7;
+    
+  }
+
+  .banner2:hover .overlay {
+    opacity: 0.7;
+    
+  }
+
+  .banner3:hover .overlay {
+    opacity: 0.7;
+    
+  }
+
+  .banner4:hover .overlay {
+    opacity: 0.7;
+    
+  }
+
+
+    .info{
+        width:100%;
+        text-align:center;
+        
+     }
+
+  
+
+
+     .info ul {
+         
+        text-align:left;
+        list-style: none;
+     }
+
+    
+     .info p{
+         
+        font-size: 0.8rem;;
+      
+     }
+
+     .banner-title{
+      text-align:center;
+      font-size: 0.8rem;
+     }
+
+
+  
+     @media (min-width: 700px) {
+      .genero {
+          display:grid;
+          grid-gap: 2rem;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          
+      }
+  
+  .banner{
+      height:7rem;
+  }
+  
+  h1{
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    
+  
+  }
+
+  .info p{
+         
+    font-size: 0.6rem;;
+  
+ }
+  
+    }
+  
+  
+  
+     @media (min-width: 1200px) {
+
+      .info h2{
+       
+        font-size: 1.2rem;
+        
+    }
+    .genero {
+        display:grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+
+.banner1{
+    height:15rem;
+}
+.banner2{
+  height:15rem;
+}
+.banner3{
+  height:15rem;
+}
+.banner4{
+  height:15rem;
+}
+
+h1{
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  
+
+}
+
+.info p{
+         
+  font-size: 1rem;;
+
+}
+
+  }
+
