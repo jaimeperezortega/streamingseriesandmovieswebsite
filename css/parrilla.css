@@ -22,17 +22,23 @@ h1:target{
 }
 
 .genero:nth-of-type(even){
-  background-color: #262626;
+ 
+  background-color:#0E161F
+  
 }
 
 .genero:nth-of-type(odd){
+ 
+  background-color:  #262626;
+}
+.heading:nth-of-type(even){
+  
   background-color:#0E161F;
 }
-h1:nth-of-type(even){
-  background-color:  #262626;;
-}
-h1:nth-of-type(odd){
-  background-color:#0E161F;
+.heading:nth-of-type(odd){
+  
+  
+  background-color:  #262626;
 }
 
   .banner1 {

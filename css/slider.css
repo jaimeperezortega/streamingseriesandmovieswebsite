@@ -1,0 +1,160 @@
+.section-slider{
+    padding: 2.0rem 1.5rem;
+  
+}
+
+.slider{
+    margin:auto;
+    padding-left:0;
+    position:relative;
+    height:220px;
+    width:100%;
+    max-width: 1300px;
+
+}
+
+ul.slider li{
+left:0;
+top:0;
+opacity:0;
+
+}
+
+
+
+#slide1{
+
+background: url(../sources/slide-1.jpg);
+background-size:100% 100%;
+background-size: cover;
+width:inherit;
+height:inherit;
+position:absolute;
+background-size: cover;
+left:0;
+top:0;
+transition: opacity .5s;
+
+}
+
+#slide2{
+
+    background: url(../sources/slide2.jpg);
+    background-size:100% 100%;
+    background-size: cover;
+    width:inherit;
+    height:inherit;
+    position:absolute;
+    background-size: cover;
+    left:0;
+    top:0;
+    transition: opacity .5s;
+    
+    }
+
+#slide3{
+
+        background: url(../sources/slide3.jpg);
+        background-size:100% 100%;
+        background-size: cover;
+        width:inherit;
+        height:inherit;
+        position:absolute;
+        background-size: cover;
+        left:0;
+        top:0;
+        transition: opacity .5s;
+        
+    }
+
+#slide4{
+
+        background: url(../sources/slide4.jpg);
+        background-size:100% 100%;
+        background-size: cover;
+        width:inherit;
+        height:inherit;
+        position:absolute;
+        background-size: cover;
+        left:0
+        top:0;
+        transition: opacity .5s;
+        
+        }
+
+.slide-title{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgba(0, 0, 0, 0.8);
+  margin:0;
+  padding: 0.8rem 0rem;
+  font-size: 1.2rem;
+  
+
+}
+
+.marker{
+    display:flex;
+    justify-content: center;
+
+}
+
+.link-marker{
+    
+    display:block;
+}
+
+.marker a{
+    background-color: #0D4761;
+    margin:1.2rem 0.7rem;
+    padding:8px 12px;
+    border-radius:100%;
+    font-size: 0.8rem;
+    
+}
+
+
+
+ul.slider li:first-child{
+    opacity:1;
+}
+
+ul.slider li:target{
+    opacity:1;
+    /* margin-top:4rem; */
+}
+
+
+
+
+@media (min-width: 700px){
+
+    .slider{
+        
+        height:400px;
+    
+    }
+
+    .marker a{
+        margin:1rem;
+        padding:10px 15px;
+        border-radius:100%;
+        font-size: 1rem;
+        
+    }
+
+
+}
+
+@media (min-width: 1200px){
+
+    .slider{
+        
+        height:550px;
+    
+    }
+    
+    }
