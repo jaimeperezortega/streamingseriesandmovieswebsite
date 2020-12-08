@@ -1,5 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.heading{
+ 
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.5rem;
+
+ }
 
 :root {
     --navbar-height: 4.5rem;
