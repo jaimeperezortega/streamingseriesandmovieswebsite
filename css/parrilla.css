@@ -21,7 +21,7 @@ h1:target{
 
 }
 
-.genero:nth-of-type(even){
+/* .genero:nth-of-type(even){
  
   background-color:#0E161F
   
@@ -39,7 +39,20 @@ h1:target{
   
   
   background-color:  #262626;
+} */
+
+section:nth-of-type(even){
+ 
+  background-color:#0E161F
+  
+  
 }
+
+section:nth-of-type(odd){
+ 
+  background-color:  #262626;
+}
+
 
   .banner1 {
     background-size:100% 100%;
