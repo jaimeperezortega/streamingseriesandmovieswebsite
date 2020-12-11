@@ -21,7 +21,7 @@ h1:target{
 
 }
 
-/* .genero:nth-of-type(even){
+.genero:nth-of-type(even){
  
   background-color:#0E161F
   
@@ -39,18 +39,15 @@ h1:target{
   
   
   background-color:  #262626;
-} */
-
-section:nth-of-type(even){
- 
-  background-color:#0E161F
-  
-  
 }
 
-section:nth-of-type(odd){
- 
-  background-color:  #262626;
+.container{
+  position:relative;
+  /* border: solid grey 1px; */
+  border-radius: 5px;
+  padding-left:0rem;
+  padding-right:0rem;
+  padding-top:0rem;
 }
 
 
@@ -157,14 +154,37 @@ section:nth-of-type(odd){
       
      }
 
+
+     .banner-title-container{
+       display: flex;
+       justify-content: space-between;
+       max-width: 23rem;;
+       
+      
+
+     }
+
+     .star{
+       max-height:20px;
+       max-width: 20px;
+       margin-top: 10px;
+       /* border: solid white 1px;
+       border-radius: 5px,; */
+     }
+
+    
+
      .banner-title{
-      text-align:center;
-      font-size: 0.8rem;
+      
+      font-size: 0.9rem;
+      max-width: 14rem;
+      ;
+     
      }
 
 
   
-     @media (min-width: 700px) {
+     @media (min-width: 760px) {
       .genero {
           display:grid;
           grid-gap: 2rem;
